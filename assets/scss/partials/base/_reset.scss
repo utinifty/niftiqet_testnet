@@ -1,0 +1,52 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+  border: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+p, ul, ol, dl, pre, address, fieldset, figure {
+  margin: 0;
+}
+.formkit-wrapper {
+  .formkit-inner {
+    box-shadow: hsl(var(--p));
+
+    .formkit-input, fieldset.formkit-fieldset {
+      border: solid 1px hsl(var(--p));
+      color: hsl(var(--bc));
+      background: hsl(var(--b1) / 0.5);
+    }
+  }
+}
+fieldset.formkit-fieldset {
+  border: solid 1px hsl(var(--p));
+  color: hsl(var(--bc));
+  background: hsl(var(--b1) / 0.5);
+  .formkit-help, .formkit-option-help {
+    color: hsl(var(--bc));
+  }
+}
+li.formkit-option {
+ .formkit-wrapper{
+   display: flex;
+   justify-content: space-between;
+   .formkit-label {
+     order: 1;
+   }
+   .formkit-inner {
+     order: 2;
+   }
+  }
+}
+
+[data-theme="light"] {
+  input {
+    color-scheme: light
+  }
+}
+[data-theme="dark"] {
+  input {
+    color-scheme: dark
+  }
+}

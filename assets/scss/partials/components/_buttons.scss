@@ -1,0 +1,36 @@
+.def--btn {
+  background: linear-gradient(to right, #27a0af, #4680bd);
+  color: #fafafa;
+  transition: .3s ease-in-out;
+  position: relative;
+  top: -1px;
+  &:hover {
+    background: linear-gradient(to right, #1c707a, #2a4d72);
+    top: 0;
+    color: #fafafa;
+  }
+  &.btn-outline {
+    background: transparent;
+    color: #fafafa;
+    &:hover {
+      background: linear-gradient(to right, #1c707a, #2a4d72);
+      color: #fafafa;
+      border: none;
+    }
+  }
+}
+
+.btn {
+  &.btn-outline {
+    border: solid 1px;
+  }
+}
+
+.avatar--upload, .page--header {
+  .btn {
+    color: #fafafa;
+    &.btn-outline {
+      border: solid 1px #fafafa;
+    }
+  }
+}
