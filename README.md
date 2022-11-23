@@ -4,7 +4,7 @@
 
 You can take a look at it [here](http://6hu0bvlpihdqn7f26hf1dpv3ko.ingress.d3akash.cloud/). 
 
-**NB:** You need to a [NEAR testnet account](wallet.testnet.near.org) to be able to log in.
+**NB:** You need to a [NEAR testnet account](https://wallet.testnet.near.org) to be able to log in.
 
 ## What Niftiqet is all about.
 
