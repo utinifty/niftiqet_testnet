@@ -11,14 +11,5 @@ Niftiqet is a ticketing platform that aims to make creating events and tickets e
 - Backend - NodeJS (Express)
 - Smart Contract - [Mintbase](https://mintbase.io) and supplimentary Smart contract on the near blockchain.
 - Docker
-- Akash - hosting (Mainnet)
-- Netlify - hosting (Testnet/Mainnet)
+- Akash - hosting (Testnet)
 
-
-## Milestone 2 attained:
-
-- Deployed on [mainnet](https://niftiqet.com)
-- Incorporated as CommandLine Technologies Ltd
-- App branding done. Document [here](https://www.dropbox.com/s/pcs9qigcmdbiake/niftiqet%20Brand.pdf?dl=0).
-- Business development and marketing plans being drawn.
-- App not yet audited.
